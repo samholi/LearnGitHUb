@@ -1,0 +1,23 @@
+git --version
+git config --global user.name"______"
+git config --global user.email______
+git config --global --list
+
+
+git init
+git add index.html      [in staging area]
+git add *
+git status ---->	Changes to be committed:
+		  	(use "git rm --cached <file>..." to unstage)
+        		new file:   index.html
+
+git commit -m "first version of index.html (welcome message)"
+git log / git log --all    [commit history]--->commit eac21084013b8e97efa2e57ba99cf718f09f394e (HEAD -> master)
+					    Author: Sameer Holikar <sameerholikar33@gmail.com>
+					    Date:   Fri Sep 27 16:12:23 2024 +0530
+  					    first verson of index.html (welcome message)
+git diff          [tells what is modified in file]
+
+
+git show_____(commit id):index.html        [ it will show code of that file ]
+git restore . /git restore index.html      [ undo the code]
